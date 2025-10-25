@@ -391,6 +391,3 @@ async def ai(message: Message, state: FSMContext):
     else:
         await message.answer("⛔ Бот принимает только текстовые сообщения.")
 
-@router.message(Command('boobs'))
-async def get_photo(message: Message):
-    await message.answer_photo(photo='AgACAgIAAxkBAAOpZ0x82xx8kFrQXD58JWbY1xEvNXMAAj3nMRvxvWFKo1BE7gkRynQBAAMCAAN5AAM2BA', caption='C голыми сиськами не нашёл')
